@@ -1,0 +1,108 @@
+/* Colores 
+#d0a5dd
+#e8c4f3
+#9830dd
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos Nav */
+
+.colorNav{
+    background-color: #e8c4f3;
+}
+
+.bordeLogo{
+    border-radius: 50%;
+    border: none;
+}
+
+.colorBoton{
+    color: #9830dd;
+    border-color: #9830dd;
+}
+
+
+
+/* Carrusel */
+
+.altoCarrusel{
+    width: 100vw;
+    height: 90vh;
+}
+
+.imagenprod{
+    width: 10%;
+    height: 10%;
+}
+
+
+.tituloInicio{
+    margin: 3rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.descripCandy{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    padding: 4rem 9rem;
+    background-color: #e8c4f3;
+    color: #9830dd;
+    font-weight: bolder;
+}
+
+
+/* estilos hoja producto */
+.tituloProductos{
+    background-image: linear-gradient(90deg , #9830dd , #e8c4f3);
+    font-weight: bolder;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: mover 1s infinite;
+}
+
+@keyframes mover {
+    50%{
+        background-image: linear-gradient(260deg ,#9830dd , #e8c4f3);
+    }
+}
+
+
+
+/* estilos hoja nosotros */
+
+.fotoPersonal{
+    width: 400px;
+    height: 350px;
+}
+
+.centrado{
+    margin: 6rem 6rem 8rem 6rem;
+}
+
+
+/* estilos hoja Contacto */
+.cajaContacto{
+    width: 50%;
+    height: 40%;
+    background-color: #e8c4f3;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+
+
+/* estilos footer */
+.colorFooter{
+    background-color: #e8c4f3;
+}
+
